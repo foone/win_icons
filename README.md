@@ -81,6 +81,9 @@ Then it'll just post the image as-is.
 1. It's written in python 2.7: You are welcome to eat my entire ass if you think this is a downside. I'm a retrocomputerist, you're lucky I didn't write this in QBasic for MS-DOS 6.22.
 2. I've already easter-egg rickrolled you (twice) in this readme.
 
+# Source images
+This repo doesn't include the collection of images the bot posts, but those have been uploaded on the internet archive: https://archive.org/details/win_icons
+
 # License
 This is licensed under the GPL, version 3. This basically just means that if you modify this script and republish those modifications, you need to also license it under the GPL3. It doesn't mean you need to share any modifications if you just install it in your server and use it (even if you modify it to do weird things to the images or something like that)
 
