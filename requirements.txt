@@ -1,0 +1,12 @@
+certifi==2017.11.5
+chardet==3.0.4
+idna==2.6
+oauthlib==2.0.6
+Pillow==6.2.1
+pkg-resources==0.0.0
+redis==2.10.6
+requests==2.18.4
+requests-oauthlib==0.8.0
+six==1.11.0
+tweepy==3.5.0
+urllib3==1.22
