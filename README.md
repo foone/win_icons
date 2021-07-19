@@ -75,6 +75,7 @@ Then it'll just post the image as-is.
 4. New images can't appear until the existing queue is used up. Because of how the shuffling works, you won't see anything new that quickly. This could possibly be fixed, at the cost of making the randomization worse, but in the meantime you can always manually log into redis and delete the list. (that's just DEL winicons)
 5. The redis list name isn't namespaced. Yeah I just thought of this one: You can always change it if you want to run more than one copy of the bot on a server, or if you're already using "winicons" for something. 
 6. simple_shuffled_list.py in extra hasn't been tested. It's some very simple python code so I don't think it'll break, but I haven't even run it.
+7. It assumes all the input files are 32x32, and does not check this. The resizing and pasting onto the temple will work very weirdly or break if your input files are the wrong size. 
 
 # Not actually downsides and caveats, even if you think they might be:
 1. It's written in python 2.7: You are welcome to eat my entire ass if you think this is a downside. I'm a retrocomputerist, you're lucky I didn't write this in QBasic for MS-DOS 6.22.
